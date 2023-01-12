@@ -1,0 +1,22 @@
+
+.btn, .btn-empty {
+  text-align: center;
+  border-radius: 28px;
+  font-family: sans-serif;
+  color: #1867b7;
+  font-size: 12px;
+  background: #ffffff;
+  border: solid #1f628d 2px;
+  font-weight: bold;
+  padding-left: 5px;
+  padding-right: 10px;
+}
+.btn-empty {
+  padding-left: 10px;
+}
+
+.btn:hover {
+  background-color: #1f628d;
+  color: white;
+
+}

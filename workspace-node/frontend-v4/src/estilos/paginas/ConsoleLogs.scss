@@ -1,0 +1,33 @@
+.consoleLogs {
+
+
+
+    .consoleLogs-col {
+        width: 80%;
+        text-align: left;
+        .card-header {
+            padding-left: 10px;
+            text-align: left;
+        
+            
+        }
+
+        .card-body {
+            height: 50vh;
+            overflow: scroll;
+            font-family: monospace;
+            margin-top: 10px;
+            padding-top: 5px;
+            padding-left: 10px;
+            border: 1px;
+            background-color: black;
+           
+
+            .row {
+                font-size: 12px;
+                font-family: 'Courier New', Courier, monospace;
+                color: white;
+            }
+        }
+    }
+}

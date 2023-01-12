@@ -1,0 +1,1 @@
+echo 'test java jsch' > /home/tfg/tfg-workspace/workspace-java/test-infra-script3.txt

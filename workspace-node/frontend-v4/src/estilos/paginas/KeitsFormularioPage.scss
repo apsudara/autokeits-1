@@ -1,0 +1,151 @@
+.keitsFormularioPage {
+    float: center;
+    width: 90%;
+    margin-left: 30%;
+
+    form {
+        position: relative;
+        width: 50%;
+        height: 100%;
+
+        .cni-div {
+            .texto{
+                font-weight: bold;
+                
+            }
+            margin-top: 10px;
+            margin-bottom: 10px;
+            select {
+                // margin-left: 10px;
+                height: 20px;
+                margin-top: 10px;
+                border-width: 0px;
+                border-bottom: 2px solid darkgray;
+                width: 100%;
+                option {
+                    height: 20px;
+                    display: list-item;
+                }
+            }
+        }
+    }
+
+    .form-label {
+        display: block;
+        margin-bottom: 3px;
+        margin-top: 25px;
+        text-align: left;
+        font-weight: bold;
+        color: darkblue;
+    }
+
+    .form-control {
+        width: 100%;
+        min-height: 25px;
+        border-radius: 1px;
+        box-shadow: inset;
+        border: none;
+        border-bottom: 2px solid darkgray;
+        // margin-left: 5px;
+    }
+
+    .form-control:focus {
+        outline: none;
+        // margin-left: 5px;
+    }
+
+    .invalid-feedback {
+        width: 50%;
+        margin-top: .25rem;
+        font-size: .875em;
+        color: #dc3545;
+    }
+
+    .invalid-feedback-hide {
+        display: none;
+    }
+
+
+    .master {
+        float: left;
+        width: 50%;
+
+        .btn {
+            padding-right: 5px;
+            padding-left: 5px;
+            color: green;
+            margin-top: 4px;
+            border-color: green;
+            padding-bottom: 2px;
+        }
+
+        .btn:hover {
+            color: white;
+            border-color: white;
+            background-color: green;
+        }
+
+    }
+
+    .worker {
+        float: right;
+        width: 50%;
+
+        .btn {
+            padding-right: 5px;
+            padding-left: 5px;
+            color: green;
+            margin-top: 4px;
+            border-color: green;
+            padding-bottom: 2px;
+        }
+
+        .btn:hover {
+            color: white;
+            border-color: white;
+            background-color: green;
+        }
+    }
+
+    .input-btn {
+        margin-top: 20px;
+    }
+
+    .btn-add-item {
+        margin-top: 2px;
+        width: 20px;
+        padding-right: 0px;
+        padding-left: 0px;
+    }
+
+    .input-btn-apply {
+        position: relative;
+        width: 100%;
+    }
+
+    .node-cols {
+        .form-control {
+            width: 50%;
+        }
+
+        .form-control-creds {
+            width: 30%;
+            margin-left: 2px;
+        }
+
+        .btn {
+            padding-left: 5px;
+            padding-right: 5px;
+            margin: 2px;
+            color: darkred;
+            border-color: darkred;
+            padding-bottom: 2px;
+        }
+
+        .btn:hover {
+            background-color: #dc3545;
+            color: white;
+            border-color: white;
+        }
+    }
+}

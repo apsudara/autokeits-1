@@ -1,0 +1,54 @@
+.KubernetesPage {
+    display: flex;
+    
+    .tablaIzq {
+        float: left;
+        width: 50%;
+    }
+
+    .tablaDrcha {
+        float: right;
+        width: 50%;
+        .card-header{
+            display: flex;
+            .card-header-text{
+                text-align: left;
+                width: 50%;
+                margin:10px;
+            }
+            .card-header-btn-close{
+                text-align: right;
+                width: 50%;
+                padding-right: 5px;
+                .btn{
+                    color: darkred;
+                    padding-left: 10px;
+                    border:none;
+                }
+                .btn:hover{
+                    color:white;
+                    background-color: darkred;
+
+                }
+            }
+        }
+        .card-body-sel-provider{
+            text-align: center;
+            display: flex;
+            th{
+                border-top: 1px solid #8fcae6;
+                border-bottom: 2px solid #8fcae6;
+                width: 100%;
+            }
+            div{
+                padding: 40px;
+                margin: 2px;
+            }
+            .select-type-provider:hover{
+                border: 3px solid darkblue;
+                border-radius: 5px;
+            }
+        }
+    }
+
+}

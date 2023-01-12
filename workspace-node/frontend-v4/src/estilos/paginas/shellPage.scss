@@ -1,0 +1,35 @@
+.shellpage{
+    
+    display: flex;
+    .card-body{
+        height: 50vh;
+        width: 100%;
+        .formgroup0{
+            margin-top: 5px;
+            margin-left: 5px;
+            .btn{
+                
+                margin-left: 5px;
+            }
+
+        }
+        .formgroup1{
+            margin-top: 5px;
+            margin-left: 5px;
+            textarea{
+                
+                width: 90%;
+            }
+        }
+        .formgroup2{
+            margin-top: 5px;
+            margin-left: 5px;
+            
+            textarea{
+                vertical-align: top;
+                width: 90%;
+                height: 50vh;
+            }
+        }
+    }
+}

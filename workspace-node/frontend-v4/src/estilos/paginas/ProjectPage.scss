@@ -1,0 +1,162 @@
+.projectPage {
+    display: flex;
+
+    .card-projects {
+        height: 90vh;
+        width: 50%;
+        text-align: left;
+
+        .card-header {
+            height: 20px;
+            text-align: center;
+        }
+
+        .card-body {
+            margin-left: 10px;
+        }
+
+        table {
+            border-collapse: collapse;
+            width: 95%;
+            text-align: center;
+            font-style: sans-serif;
+            margin-left: 10px;
+
+            th,
+            td {
+                border-bottom: 1px solid #8fcae6;
+                padding-bottom: 5px;
+                padding-top: 5px;
+                text-align: left;
+
+            }
+
+            .settings {
+                text-align: right;
+            }
+
+            .btn-project {
+                text-align: right;
+            }
+
+            tfoot {
+                th {
+                    border-top: none;
+                    border-bottom: none;
+                }
+            }
+
+        }
+
+
+    }
+
+    .card-projects-right {
+        height: fit-content;
+        padding-bottom: 10px;
+
+        .card-header {
+            width: 100%;
+            padding-right: 10px;
+            text-align: right;
+
+            .btn {
+                padding-left: 10px;
+                border: none;
+                color: darkred;
+            }
+
+            .btn:hover {
+                padding-left: 10px;
+                border: none;
+                background-color: darkred;
+                color: white;
+            }
+
+
+        }
+
+        .td-project-create {
+            border-bottom: none;
+        }
+
+        .th-hide,
+        .td-hide {
+            padding: 5px;
+            border-bottom: none;
+        }
+
+        .invalid-feedback {
+            width: 50%;
+            margin-top: .25rem;
+            font-size: .875em;
+            color: #dc3545;
+        }
+
+        .invalid-feedback-hide {
+            display: none;
+        }
+
+    }
+
+    .card-kubernetes-rigth {
+        padding: 5px;
+        border: 2px solid #8fcae6;
+        border-radius: 4px;
+
+        .td-kubernetes:hover {
+            border-bottom: 1px solid #8fcae6;
+            font-weight: bold;
+            color: darkblue;
+            width: fit-content;
+        }
+    }
+
+    .node-cols {
+        display: flex;
+        .form-label {
+            margin-bottom: 2px;
+            margin-top: 5px;
+            margin-right: 5px;
+            text-align: left;
+            font-weight: bold;
+            color: darkblue;
+        }
+
+        .form-control {
+            min-height: 25px;
+            border-radius: 1px;
+            box-shadow: inset;
+            border: none;
+            border-bottom: 2px solid darkgray;
+            // margin-left: 5px;
+        }
+
+        .form-control:focus {
+            outline: none;
+            // margin-left: 5px;
+        }
+
+        .form-control-creds {
+            width: 30%;
+            margin-left: 2px;
+        }
+
+        .btn {
+            padding-left: 5px;
+            padding-right: 5px;
+            margin: 2px;
+            color: darkred;
+            border-color: darkred;
+            padding-bottom: 2px;
+        }
+
+        .btn:hover {
+            background-color: #dc3545;
+            color: white;
+            border-color: white;
+        }
+    }
+
+
+}
